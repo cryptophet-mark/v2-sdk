@@ -9,7 +9,7 @@ export enum ChainId {
   RINKEBY = 4,
   GÖRLI = 5,
   KOVAN = 42,
-  KOPERNIKUS = 502,
+  FUJI = 43113
 }
 
 export enum TradeType {
@@ -23,9 +23,9 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0x4CCdB441667a123F2f028c1F9Ef97Af663557d00'
+export const FACTORY_ADDRESS = '0xD28889CBC8539AB7989EBa4e3586fA8E2885DCAc'
 
-export const INIT_CODE_HASH = '0xe5a230defdb76823c087df060b499c76e815d5c9a38ab0ff2e484886de8585d5'
+export const INIT_CODE_HASH = '0x1a26ef233c329bf682c3ddbcb14a61399d3a8208f53af308863eb20bf8cfb2be'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
